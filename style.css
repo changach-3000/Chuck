@@ -1,18 +1,39 @@
+*{
+    background-origin: padding-box;
+    background: linear-gradient(60deg,rgb(135, 182, 197),rgb(176, 176, 250) 100%);
+}
 #container{
     position: absolute;
-    margin: auto;
-    top:15%;
-    left: 30%;
-    align-items: center;
+    top:25%;
+    left:30%;
+    background: none;
 }
 
 #container img{
-    width: 200px;
-    height:150px;
+    position: relative;
+    left: 20%;
+    width: 150px;
+    height:100px;
+    background: none;
 }
 #container p{
     padding: 20px;
     border-style: double;
     border-color: brown;
+    width:70%;
 
+}
+#buttons{
+    position: relative;
+    top:100px;
+    left:20%;
+    background: none;
+ 
+}
+button{
+    padding: 10px;
+    margin:5px;
+    border-radius: 5px;
+    width:10%;
+    background: none;
 }

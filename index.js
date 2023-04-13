@@ -56,7 +56,7 @@ fetch("https://api.chucknorris.io/jokes/random?category=fashion")
 
 function fashionJokes(jokes){
     //create a variable to render the jokes to
-    histbut.addEventListener("click", (event) =>{
+    fbut.addEventListener("click", (event) =>{
         //create a variable to render the jokes to
         const value = document.getElementById("random1")
         value.innerHTML = jokes.value;
